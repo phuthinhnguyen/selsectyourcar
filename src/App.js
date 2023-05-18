@@ -1,4 +1,6 @@
-const {useState ,useEffect,createContext, useContext,useRef, useCallback,useMemo } = React;
+import './App.css';
+import React from 'react';
+import { useState } from 'react';
 
 const App = () => {
   const carList = ["Mescedes S600", "Toyota Camry", "Audi A8"]
@@ -26,8 +28,7 @@ const App = () => {
   );
   }
 
-  
+export default App;
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+
